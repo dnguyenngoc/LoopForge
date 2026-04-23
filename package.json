@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "eas:build:ios:production": "npx --yes eas-cli@16 build --platform ios --profile production",
+    "eas:submit:ios:production": "npx --yes eas-cli@16 submit --platform ios --profile production --latest"
   },
   "dependencies": {
     "react": "19.2.3",

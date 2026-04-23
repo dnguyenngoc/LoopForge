@@ -1,4 +1,12 @@
 {
   "name": "LoopForge",
-  "displayName": "LoopForge"
+  "displayName": "LoopForge",
+  "expo": {
+    "name": "LoopForge",
+    "slug": "loopforge",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.loopforge"
+    }
+  }
 }
