@@ -35,6 +35,10 @@ local.properties
 !debug.keystore
 .kotlin/
 
+# Expo / EAS
+.expo/
+dist/
+
 # node.js
 #
 node_modules/
